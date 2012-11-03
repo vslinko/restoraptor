@@ -1,0 +1,30 @@
+{
+    "name": "rithis/restoraptor",
+    "homepage": "https://github.com/rithis/restoraptor",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Vyacheslav Slinko",
+            "email": "vyacheslav.slinko@rithis.com",
+            "role": "Founder"
+        }
+    ],
+    "support": {
+        "email": "support@rithis.com",
+        "issues": "https://github.com/rithis/restoraptor/issues",
+        "wiki": "https://github.com/rithis/restoraptor/wiki",
+        "source": "https://github.com/rithis/restoraptor"
+    },
+    "require": {
+        "php": ">=5.4",
+        "ext-mongo": "*",
+        "silex/silex": "@dev",
+        "symfony/console": "2.1.*",
+        "symfony/process": "2.1.*"
+    },
+    "autoload": {
+        "psr-0": {
+            "Restoraptor": "src"
+        }
+    }
+}
