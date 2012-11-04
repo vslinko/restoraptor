@@ -1,5 +1,7 @@
 {
     "name": "rithis/restoraptor",
+    "description": "Simple REST Interface to MongoDB",
+    "keywords": ["rest", "mongodb", "api", "silex"],
     "homepage": "https://github.com/rithis/restoraptor",
     "license": "MIT",
     "authors": [
@@ -26,5 +28,6 @@
         "psr-0": {
             "Restoraptor": "src"
         }
-    }
+    },
+    "bin": ["bin/restoraptor"]
 }
